@@ -1,0 +1,6 @@
+assigemt 3 - 3
+<video  controls preload="none">
+<source>src="../media/intro.mp4" type="video/mp4"</source></video>
+1-يفترض ان يخرج من folder تبع pages باستخدام ../ ثم يدخل media ثم ملف الفيديو
+2-الشكل الطبيعي يكون الفيديو بدومmute فلا تحتاج ل ان تجعلها off
+3-none حتى لا يحمل الdataالا عند التشغيل
