@@ -7,10 +7,40 @@
 </head>
 <body>
     <nav>
-        <a href="/session5/index.html">الرئيسيه</a>
-        <a href="/session5/pages/schedule.html">المواعيد</a>
-        <a href="/session5/pages/enquiry.html">التفاصيل</a>
+        <a href="../index.html">الرئيسيه</a>
+        <a href="schedule.html">المواعيد</a>
+        <a href="enquiry.html">التفاصيل</a>
     </nav>
+        <h1>استفسر عن الكورس</h1>
+        <form>
+            <label for="name">الاسم الكامل</label>
+            <input id="name" type=" " name="" placeholder="الاسم الكامل" autocomplete="name">
+         <br>   
+            <label for="phone">رقم الهاتف</label>
+            <input id="phone" type="tel" name="phone" placeholder="رقم الهاتف">
+            
+        <br>
+            <label for="email">البريد الالكتروني</label>
+            <input id="email" type="email" name="email" placeholder="البريد الالكتروني">
+            
+        <br>
+        <label for="course">اختر الكورس</label>
+        <select id="course" name="course">
+            <option value=""> اختر الكورس االمرغوب</option>
+            <option value="content">html content</option>
+            <option value="forms">css forms</option>
+        </select>
+        <br>
+            <label for="bounded-seats">المقاعد (مطلوب، من 1 إلى 5)</label>
+            <input id="bounded-seats" name="seats" type="number" min="1" max="5" step="1" value="1" required>
+            <br>
+            <label for="date">تاريخ </label>
+            <input id="date" name="preferredDate" type="date">
+            <br>
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="4"></textarea> 
+            <button type="submit">ادخال</button>
+        </form>
     
 </body>
 </html>
