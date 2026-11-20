@@ -1,0 +1,19 @@
+/* #course-title { color: purple; } */
+.title { color: orange; }
+.title { color: green; }
+h1{ color: navy; }
+.course-card { color: #374151; }
+
+article p{
+    color:teal;
+}
+
+.details>p{
+    color:red;
+}
+a:hover{
+    color:rgb(255, 0, 153)
+}
+a:focus-visible{
+    outline:auto;
+}
