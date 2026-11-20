@@ -1,0 +1,33 @@
+1-a)
+.course-card h2 {
+font-size: 1.5rem;
+}
+
+تم تبديل من em الى rem
+لانه المطلوب ان اخذها من جذر الصفحةو اصبحت 24px
+
+وحجم البطاقه هو 20px
+
+b)
+html:
+<h1 style="color: tomato;">coderz Institute</h1>
+css:
+:root {
+--brand:#12546c;
+font-size: 16px;}
+h1,h2 {
+color: var(--brnad);}
+
+كان علي حذف الinline ليظهر اللون تبع root
+وتصحيح كلمة brand املائيا
+
+تم تغيير الون وتغيرو الخطين الى اخضر ثم تم اعادتهم
+
+
+
+c)
+.action:focus-visible {
+outline: 0 solid orange;
+}
+
+هنا تم تغيير الحجم تبع الoutline  الى 3px
