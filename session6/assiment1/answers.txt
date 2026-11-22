@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="styles.css">
+هذا الربط من ملف index.html
+لانه في نفس المستوى لم نحتاج سوا وضع the path directe
+
+
+<link rel="stylesheet" href="../styles.css">
+هذا الرابط من ملف courses.css
+بدأ ب ../ ليعود خطوة ثم اسم الbath المطلوب

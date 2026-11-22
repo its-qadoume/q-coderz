@@ -1,0 +1,18 @@
+:root{
+    --brand:rgb(19, 176, 176);
+
+}
+h1,h2{
+   color:var(--brand);
+}
+.status{
+    background-color:blue;
+}
+.course-card[data-status="open"] {
+    background-color: lightgreen;
+}
+
+
+.course-card[data-status="full"] {
+    background-color: gray;
+}
