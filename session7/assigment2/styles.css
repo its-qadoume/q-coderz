@@ -1,0 +1,65 @@
+body{
+ background-color:#f5f3ff;
+}
+
+
+.card{border:1.5px solid #DDD6FE;
+    border-radius: 30px;
+    background-color: aliceblue;
+    display: block;
+    width: 430px;
+   padding-bottom: 20px;
+    padding-inline:20px;
+    text-align: center;
+    box-sizing: content-box;
+    margin-inline:500px;
+    margin-top: 70px;
+    box-shadow: 0px 20px 20px rgba(109, 40, 217, 0.12);
+    font-family: sans-serif;
+    
+
+}
+.activity{
+    background-color: #EDE9FE;
+    color:#6D28D9 ;
+    border-radius: 30px;
+    display:inline-block ;
+    padding: 7px;
+    padding-inline: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom:7px;
+}
+.price{
+    font-size: 50px;
+    color:#6D28D9;
+     margin:0px;
+}
+.note{
+    font-size: 20px;
+    margin:10px;
+    color:#6B7280;
+}
+
+button{
+    color: aliceblue;
+    background-color: #6D28D9;
+    width: 400px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius:13px ;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-size: 50px;
+     margin:7px;  
+}
+hr{
+    color: #DDD6FE;
+   border:1px solid;
+}
+h2{
+    font-weight: bolder;
+}
