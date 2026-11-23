@@ -1,0 +1,56 @@
+.card{
+border: 2px solid rgb(5, 91, 166);
+border-radius: 10px;
+padding:18px;
+display: inline-block;
+width: 400px;
+background-color: #FFFFFF;
+color:rgb(8, 73, 127);
+margin-inline:500px;
+margin-block:180px
+}
+
+
+body{
+    background-color:#F4F7F8;
+}
+
+.avabilty{
+    background-color: rgba(9, 222, 9, 0.263);
+    color:green;
+    display: inline;
+    padding-inline:8px;
+    padding-block: 5px;
+    border-radius: 8px;
+}
+.btn{
+    padding:6px;
+    border:2px rgb(8, 73, 127) solid ;
+    border-radius: 7px;
+    margin:4px;
+    color:aliceblue;
+    background-color:rgb(8, 73, 127);
+    padding-inline: 13px;
+    font-weight:bold;
+    
+}
+.btns{padding:6px;
+    border:2px rgb(8, 73, 127) solid ;
+    border-radius: 7px;
+    margin:4px;
+    color:rgb(8, 73, 127);
+    background-color:aliceblue;
+    padding-inline: 14px;
+    font-weight:bold;
+
+}
+.btn:hover{
+    color:rgb(8, 73, 127);
+    background-color:aliceblue ;
+}
+.btns:hover{
+    color:aliceblue;
+    background-color:rgb(8, 73, 127);
+}
+
+
