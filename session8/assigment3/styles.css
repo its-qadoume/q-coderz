@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'cairo' ;
+    src: url(font/Cairo-Regular.ttf);
+}
+@font-face {
+    font-family:'cairo+' ;
+    src: url(font/Cairo-Bold.ttf);
+}
+:root{
+    --font:'cairo';
+    --fontBold:'cairo+';
+}
+body{
+    background-color:#F5F3FF ;
+    margin:0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card{
+    background-color:#ffffff;
+    border-radius:25px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;  
+    box-sizing: content-box;
+    padding: 20px;
+    width: 600px;
+    flex-wrap: wrap;
+    
+
+    
+   
+
+}
+
+.pic{
+
+   width: 250px;
+   border-radius: 20px;
+}
+.name{
+    color:#183B42;
+    font-family:var(--fontBold);
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+
+}
+.jopPostion{
+    color:#6D28D9;
+    font-family:var(--fontBold);
+    font-size: 20px;
+    margin: 0px;
+}
+.courses{
+    display: flex;
+    gap:10px;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+h3{
+ background-color: #EDE9FE;
+    color:#6D28D9;
+    padding:3px 17px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+        font-family: var(--fontBold);
+
+}
+.description{
+    font-size: 15px;
+    color:#64748B;
+    margin-block: 5px;
+    font-family: var(--fontBold);
+}
+.btn1{
+    background-color:#6D28D9 ;
+    color:#ffffff;
+    border-radius: 7px;
+    border:2px #6D28D9 solid;
+    padding:5px 25px;
+    font-size: 15px;
+    font-family: var(--fontBold);
+}
+.btn2{
+     background-color:#ffffff;
+    color:#6D28D9 ;
+    border-radius: 7px;
+    border:2px #6D28D9 solid;
+    padding:5px 25px;
+    font-size:15px;
+    font-family: var(--fontBold);
+
+}
+.btn{
+    display: flex;
+    gap:10px;
+}

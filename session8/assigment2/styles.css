@@ -1,0 +1,57 @@
+:root{
+    --fontColor:#2563EB;
+    --fontfamily:"cairo"
+}
+@font-face {
+    font-family: 'cairo';
+    src: url('font/Cairo-Regular.ttf') ;
+    
+}
+
+
+body{
+    background-color: #EFF6FF;
+}
+.title{
+    color:var(--fontColor);
+    font-size: 60px;
+    text-align: center;
+    font-family:var(--fontfamily);
+    font-weight: 900;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: #E2E8F0;
+    padding: 80px 20px;
+    border-radius:20px;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+
+    
+}
+.card{
+    background-color: white;
+    border:2px #CBD5E1 solid;
+    border-radius: 15px;
+    padding:20px 0px ;
+    width:300px ;
+    text-align: center;
+    box-sizing: content-box;
+}
+.number{
+    font-family: var(--fontfamily);
+    color: #2563EB;
+    font-size:60px;
+    margin-block: 0px;
+    padding-block: 0px;
+    font-weight: bold;
+}
+.note{
+    margin-block: 0px;
+    font-family: var(--fontfamily);
+   
+}
