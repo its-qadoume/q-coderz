@@ -16,6 +16,7 @@ body{
 .cards{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     
 }
 
@@ -30,6 +31,7 @@ flex-direction: column;
 gap:10px;
 width: 200px;
 align-items: center;
+
 
 }
 .toptext{
@@ -53,10 +55,12 @@ align-items: center;
     margin-block:0px;
     color:#1d4ed8;
     background-color:#dbeafe;
-    border-radius: 15px;
-    padding: 4px 10px;
+    border-radius: 18px;
+    padding: 2px 14px;
     font-weight: 900;
     font-family: var(--font);
+    font-size: 18px;
+
     
 }
 .box{
